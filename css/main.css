@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root {
+  --mainBlue: #40ACF1;
+  --transparentBlue: rgba(64, 172, 241, 0.7);
+  --mainWhite: #FFFFFF;
+  --mainBlack: #292F36;
+  --mainGrey: rgb(216, 214, 214);
+  --mainYellow: #e3b505;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+}
+
+
+/*Navbar Section*/
+.navbar {
+  background: var(--mainWhite);
+}
+
+.navbar-icon {
+  font-size: 2rem;
+  color: var(--mainBlue);
+}
+
+.navbar-toggler {
+  outline-color: var(--mainBlue) !important;
+}
+
+.nav-link {
+  color: var(--mainBlack);
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: var(--mainBlue);
+}
+
+.nav-icon {
+  font-size: 1.8rem;
+  color: var(--mainBlue);
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+.nav-icon:hover {
+  color: var(--mainBlack);
+}
