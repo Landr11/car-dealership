@@ -45,10 +45,70 @@ body {
   color: var(--mainBlue);
   text-decoration: none !important;
   transition-property: color;
-  transition-duration: 2s;
+  transition-duration: 1s;
   transition-timing-function: linear;
 }
 
 .nav-icon:hover {
   color: var(--mainBlack);
+}
+
+/* Header Section */
+.header {
+  color: var(--mainWhite);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+}
+
+.height-max {
+  min-height: calc(100vh - 76px);
+  background: url("../img/headerBcg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  animation-name: zoom;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2) translate(-5%);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title-heading {
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 0.3rem solid var(--mainBlue);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.title-icon {
+  color: var(--mainBlue);
+  text-decoration: none !important;
+}
+
+.title-icon:hover {
+  color: var(--mainBlue);
+  opacity: 0.6;
 }
