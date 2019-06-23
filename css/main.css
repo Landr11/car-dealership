@@ -69,7 +69,7 @@ body {
   overflow: hidden;
   animation-name: zoom;
   animation-duration: 20s;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -111,4 +111,32 @@ body {
 .title-icon:hover {
   color: var(--mainBlue);
   opacity: 0.6;
+}
+
+
+/*Title Section */
+.section-title--special {
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+
+
+/* Skills Section */
+.skills-icon {
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+}
+
+.skills-icon:hover {
+  color: var(--mainYellow);
+}
+
+.skills-underline {
+  width: 4rem;
+  height: 0.3rem;
+  background: var(--mainBlue);
 }
