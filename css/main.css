@@ -392,3 +392,46 @@ body {
   font-size: 4rem;
   color: var(--mainYellow);
 }
+
+
+/* Testimony Section */
+.customer-card-body {
+  margin-top: -4rem !important;
+  color: var(--mainGrey);
+}
+
+.customer-img {
+  border: 0.4rem solid var(--mainWhite);
+}
+
+.customer-name {
+  color: var(--mainBlue);
+  margin: 0.5rem;
+}
+
+.customer-icon {
+  font-size: 2rem;
+  color: var(--mainGrey);
+}
+
+.customer-quote {
+  max-width: 90%;
+}
+
+
+/* Footer Section */
+.footer {
+  background: var(--mainBlack);
+}
+
+.footer-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--mainYellow);
+  transition: all 1s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: var(--mainBlue);
+
+}
